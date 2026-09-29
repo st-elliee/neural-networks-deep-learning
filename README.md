@@ -10,7 +10,7 @@ Each project trains a model from scratch in **Python**, runs a set of experiment
 |---|---|---|---|---|
 | 1 | [CIFAR-10 classification with a CNN](project-1-cifar10-cnn/) | CNN (PyTorch) | CIFAR-10 | 75.95% test accuracy (vs. 38.73% for kNN) |
 | 2 | [SVMs vs. baseline classifiers](project-2-cifar10-svm/) | SVM (linear / poly / RBF), custom SVM & MLP in NumPy | CIFAR-10 (5 classes) | 65.14% with RBF SVM (vs. 51.32% for 1-NN) |
-| 3 | *coming soon* | | | |
+| 3 | [RBF network for digit classification](project-3-mnist-rbf/) | RBF network in NumPy (k-means centers, ridge regression) | MNIST | 96.98% (matches 1-NN at 96.94%) |
 
 Each folder contains the code, a README with results and figures, and the full project report (`docs/report.pdf`).
 
